@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Shirt Order Form</title>
+
+<link rel="stylesheet" href="../CSS/exercise4.css" title="Default Style">
+<link rel="stylesheet" href="../CSS/reset.css" title="Default Style">
+
+</head>
+<body>
+<fieldset>
+<legend>Shirt Order Form</legend>
+<form method="get" action="https://drusmannaeem.co.uk/process.php">
+
+   <div class="first">
+    <label for="Size">Shirt Size</label><br>
+    <select name="Size" id="Size">
+        <option>Choose size</option>
+        <option>XS</option>
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+        <option>XL</option>
+    </select><br>
+    <label for="sleeve">Sleeves</label><br>
+    <input type="radio" name="sleeve" value="1" checked>Short<br>
+    <input type="radio" name="sleeve" value="2">Long<br>
+
+    <label for="color">Choose Shirt color</label><br>
+    <input type="color" name="colorchoice"><br>
+
+    <label for="quantity">Quantity</label><br>
+    <input type="number" min="1" max="10" name="quantity"><br>
+
+    <label for="date">Date Requested</label><br>
+    <input type="date" name ="date"><br>
+</div>
+<div class="second">
+
+    <label for="Name">Name</label><br>
+    <input type="text" name="Name"><br>
+
+    <label for="Email">Email Adress</label><br>
+    <input type="text" name = "Email"><br>
+
+    <label for="Telephone">Telephone Number</label><br>
+    <input type="tel" name="Telephone" placeholder="Example: 44-207-882-1234" pattern="^44-\d{3}-\d{3}-\d{4}$"  required><br>
+
+</div>
+<div class="third">
+
+    <label for="Address">Address</label><br>
+    <input type="text" name = "Address"><br>
+
+    <label for="city">City</label><br>
+    <input type="text" name="city" list="cities"><br>
+    <datalist id="cities">
+        <option>London</option>
+        <option>Glasgow</option>
+        <option>Birmingham</option>
+        <option>Manchester</option>
+    </datalist>
+
+    <label for="Postcode">Postcode</label><br>
+    <input type="text" name="Postcode"><br>
+
+</div>
+
+<div class = "fourth">
+
+    <label for="accept">Please keep me informed about future shirt offerings</label>
+    <input type="checkbox" name="accept"><br>
+    <div class = fifth>
+    <button type="submit" class="sub">Submit</button>
+    <button type="reset" class = "reset">Clear Form</button>
+
+</div>
+</div>
+</form>
+</fieldset>
+</body>
+</html>

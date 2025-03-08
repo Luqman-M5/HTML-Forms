@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 1rem;
+}
+
+form{
+    background-color: lightgreen;
+
+}
+
+legend{
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+
+.first{
+    padding: 1rem;
+    border: solid 2pt darkgreen;
+}
+
+.second,.third{
+    padding: 1rem;
+    border: solid 2pt darkgreen;
+    margin-top: .3rem;
+}
+
+fieldset {
+    border: 2px solid green;
+    width: 40%;
+    margin: auto;
+    background-color: lightgreen;
+}
+
+.fourth{
+    padding: 1rem;
+    margin-top: .4rem;
+    background-color: #f4f4f4;
+}
+
+.fifth{
+    display: flex;
+    justify-content: center; 
+    gap: .5rem;
+    margin-top: .8rem; 
+}
+
+.sub, .reset{
+
+    background-color: green; 
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 16px;
+    border-radius: 5px;  
+}
