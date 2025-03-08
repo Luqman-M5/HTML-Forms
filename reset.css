@@ -1,0 +1,7 @@
+html,body,table,caption, thead,tbody,tfoot,td,th {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: center;  
+    
+}
